@@ -1,5 +1,5 @@
 import sentence_classification as sc
-#testing on unlabeled dataset
+#testing on unlabeled dataset (10659 sentences)
 jdm_path = "/home/ubuntu/SentenceCorpus/unlabeled_articles/jdm_unlabeled"
 jdm_text_files = sc.txt_file(jdm_path)
 jdm_s = []
@@ -14,8 +14,6 @@ for text_file in jdm_text_files:
         else:
             s = sent
         jdm_s.append(s)
-
-jdm_s = jdm_s[0:5000]  #choosing random 5000 unlabeled sentence for test
 
 jdm_data = []
 for i in range(len(jdm_s)):
