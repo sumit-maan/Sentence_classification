@@ -2,7 +2,7 @@
 
 
 # Data Set
-Data set for sentence classification is Data folder repository on https://archive.ics.uci.edu/ml/datasets/Sentence+Classification
+Data set for sentence classification is taken from  Data folder repository on https://archive.ics.uci.edu/ml/datasets/Sentence+Classification
 
 #Directories
 1. labeled_articles: Contains data (90 text files) from 3 domains:
