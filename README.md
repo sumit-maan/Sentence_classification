@@ -1,6 +1,5 @@
 # sentence classification
 
-
 # Data Set
 Data set for sentence classification is taken from  Data folder repository on https://archive.ics.uci.edu/ml/datasets/Sentence+Classification
 
@@ -16,7 +15,7 @@ test set (contains 20% of labeled_articles)
 
 2. unlabeled_articles: contains 3 domains data out of which we used unlabled_JDM data set to test the sentence_classification model.
 
-# Implementation
+# Implementation of Naive Bayes Classifier
 
 implemented Naive Bayes Classifier (NBC) using training data set to classify the sentences and used test data set to check the accuracy of model.
 
