@@ -20,7 +20,7 @@ test set (contains 20% of labeled_articles)
 
 implemented Naive Bayes Classifier (NBC) using training data set to classify the sentences and used test data set to check the accuracy of model.
 
-Find a text file "jdm_labeled.txt" which contains 5000 new sentences, which are labeled using implemented Naive Bayes Classifier
+Find a text file "jdm_labeled.txt" which contains 10659 new sentences, which are labeled using implemented Naive Bayes Classifier
 
 
 I had two techniques to solve the problem from which I choose Naive Bayes Classifier (NBC) over Decision Tree Classifier (DTC), the reason behind this is the overall time taken by NBC was too less compare to NTC , (though training time was less in case of DTC).
